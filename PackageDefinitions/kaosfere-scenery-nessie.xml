@@ -1,0 +1,47 @@
+<AssetPackage Name="kaosfere-scenery-nessie" ReleaseNotes="PackageDefinitions\kaosfere-scenery-nessie\ReleaseNotes.xml" Version="1.0.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>The Secret of Loch Ness</Title>
+		<Manufacturer/>
+		<Creator>Rob Jones</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\kaosfere-scenery-nessie\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\kaosfere-scenery-nessie\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="nessie-docs">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\docs\</AssetDir>
+			<OutputDir>.\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="nessie-models">
+			<Type>ArtProj</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\nessie-modellib\</AssetDir>
+			<OutputDir>scenery\kaosfere\nessie\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="nessie-scene">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\data\</AssetDir>
+			<OutputDir>scenery\kaosfere\nessie\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<!--SceneryObject name: nessie-->
+	<SceneryObject lat="57.14708421860675" lon="-4.65801682553386" alt="0.00000000000000" pitch="0.000799" bank="-0.000799" heading="-35.885776" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{4E0EC147-BE54-4CD1-9BBA-DF616431C44E}" scale="1.000000"/>
+	</SceneryObject>
+</FSData>
+
